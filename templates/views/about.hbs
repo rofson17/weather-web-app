@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    {{>header}}
+  </head>
+  <body>
+    {{>navbar}}
+      <!-- main header -->
+      <div class="container-fluid main_header">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              <!-- left div -->
+              <div class="col-md-6 col-12 main_header_right">
+                <figure>
+                  <img src="./images/card.svg" alt="about img" class="img-fluid">
+                </figure>
+              </div>
+              <!-- right div -->
+              <div class="col-md-6 col-12 main_header_left">
+                <p>Welcome to weather app</p>
+                <h1>This is <span class="weather_txt">About Page</span>. Thank you for visiting us</h1>
+                <a href="mailto:example@email.com"><button><i class="fa fa-envelope"></i> Contact me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main footer -->
+      {{>footer}}
+    </body>
+  </html>
