@@ -15,6 +15,7 @@
 
 html{
   font-size: 62.5%;
+  height: 100%;
 }
 
 body{
@@ -36,9 +37,9 @@ body{
   background-color: var(--main-bg);
   padding: 2rem 0 !important;
 }
-.navbar li{
+/* .navbar li{
   margin-left: 20px !important;
-}
+} */
 
 .navbar a{
   color: #fff !important;
@@ -119,7 +120,7 @@ body{
 .temp_form{
   width: 60%;
   position: relative;
-  margin: 10rem auto 6rem;
+  margin: 5rem auto;
 }
 .temp_form input[type="text"]{
   width: 100%;
@@ -127,7 +128,7 @@ body{
   background-color: #1e202b;
   color: #fff;
   outline: none;
-  border-radius: none;
+  border: none;
   font-size: 1.7rem;
   border-radius: 3rem;
 }
@@ -156,12 +157,12 @@ body{
 }
 
 .tempInfo{
-  width: 50rem;
+  width: 40rem;
   margin: auto;
   min-height: 20rem;
   background-color: #323544;
   border-radius: 1rem;
-  /* padding: 1rem; */
+  padding: 1rem;
   font-family: "Roboto",sans-serif;
 }
 
@@ -173,13 +174,12 @@ body{
   justify-content: space-between;
   align-items: center;
   border-radius: 1rem;
+  padding: 2rem 0;
 }
 
 .top_layer p{
   color: #fff;
   font-weight: 300;
-  padding: 2rem;
-  font-size: 1.4rem;
 }
 
 .main_layer{
@@ -187,7 +187,6 @@ body{
   height: 80%;
   display: flex;
   flex-direction: column;
-  padding: 2rem;
 }
 
 .main_layer #city_name{
@@ -242,8 +241,18 @@ footer p{
     height: auto;
     margin: 5rem 0;
   }
-  .main_header_left{
+  .main_header_right{
     height: auto;
     margin-top: 3rem;
+  }
+  .temp_form{
+    width: auto;
+  }
+  .tempInfo{
+    width: auto;
+  }
+  .main_layer .middle_layer p, .main_layer .middle_layer .fa{
+    font-size: 5rem;
+    font-weight: 900;
   }
 }
